@@ -1,0 +1,83 @@
+body{
+    background-color: hsl(216, 12%, 8%);
+    font-family: 'Overpass', sans-serif;
+}
+.section1, .section2{
+    background-color: hsl(213, 19%, 18%);
+    width: 35%;
+    margin-left: 30%;
+    margin-top: 10%;
+    padding: 30px;
+    border-radius: 20px;
+}
+.section2{
+    text-align: center;
+}
+.starIcon{
+    background-color:  hsl(206, 6%, 23%);
+    padding: 7px;
+    border-radius: 100%;
+}
+.mainHead, .thankHead{
+    color: white;
+    font-size: 2rem;
+}
+.para1, .para2{
+    color: hsl(217, 12%, 63%);
+}
+.numbers{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-left: -10px;
+    margin-bottom: 30px;
+}
+.rating{
+background-color: hsl(206, 6%, 23%);
+color: hsl(217, 12%, 63%);
+font-size: 20px;
+font-weight: 700;
+padding:5% 7%;
+margin: 0 10px;
+border-radius: 100%;
+cursor: pointer;
+}
+.rating:hover{
+    background-color: hsl(217, 12%, 63%);
+    color: hsl(216, 12%, 8%);
+}
+.btn{
+width: 90%;
+border-radius: 20px;
+padding: 15px;
+font-size: 18px;
+color: white;
+background-color:  hsl(25, 97%, 53%);
+border-color:  hsl(25, 97%, 53%);
+margin-left: 20px;
+cursor: pointer;
+}
+.selectedRating{
+    background-color: hsl(206, 6%, 23%);
+    color: hsl(25, 97%, 53%);
+    padding: 10px;
+    width: fit-content;
+    border-radius: 20px;
+    margin-top: 15px;
+   margin-left: 27%;
+}
+@media (max-width:800px) and (min-width:500px) {
+    .section1, .section2{
+        width: 75%;
+        margin-left: 20px;
+    }
+}
+@media (max-width:450px){
+    .section1, .section2{
+        width: 75%;
+        margin-left: 20px;
+    }
+    .rating{
+        padding: 10px 20px;
+    }
+}
