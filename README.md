@@ -7,7 +7,7 @@ It enabled for screen sizes from less than 450px up to 1140px with a constant la
 html5, css, flexbox, query media for different screen size and JS.
 
 ## Link
-Solution URL: (https://almahamans.github.io/interactive-rating/index.html)
+Solution URL: https://almahamans.github.io/interactive-rating/index.html
 
 ## Idea
 The project idea is a challenge from [Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI).
