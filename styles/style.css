@@ -66,18 +66,22 @@ cursor: pointer;
     margin-top: 15px;
    margin-left: 27%;
 }
-@media (max-width:800px) and (min-width:500px) {
+@media (max-width:830px) and (min-width:500px) {
     .section1, .section2{
         width: 75%;
         margin-left: 20px;
     }
 }
+
 @media (max-width:450px){
     .section1, .section2{
         width: 75%;
         margin-left: 20px;
     }
+    .numbers{
+        margin-left: -30px;
+    }
     .rating{
-        padding: 10px 20px;
+        padding: 10px 17px;
     }
 }
